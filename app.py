@@ -6,7 +6,7 @@ from PIL import Image
 
 # Load environment variables
 load_dotenv()
-genai.configure(api_key=os.getenv("AIzaSyBmf78vwaOdRV1ifxWHGE66xG4AuGYhWIM"))
+genai.configure(api_key=os.getenv(""))
 
 # Function to get response from Gemini
 def get_gemini_response(input_prompt, image_parts, prompt):
